@@ -3,7 +3,7 @@
 > **AI-powered sales data analysis and email delivery platform.**
 > Upload a `.csv` or `.xlsx` file, and an LLM generates a professional narrative report delivered straight to any inbox.
 
-[![CI](https://github.com/YOUR_USERNAME/RabbitAI/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR_USERNAME/RabbitAI/actions/workflows/ci.yml)
+[![CI](https://github.com/AdityaVC2310/sales-insight-automator/actions/workflows/ci.yml/badge.svg)](https://github.com/AdityaVC2310/sales-insight-automator/actions/workflows/ci.yml)
 
 ---
 
@@ -52,9 +52,9 @@ RabbitAI is a "Quick-Response Tool" built for the Rabbitt AI engineering sprint.
 
 | | URL |
 |---|---|
-| 🌐 Frontend | `https://YOUR_FRONTEND_URL.vercel.app` |
-| 📡 Backend API | `https://YOUR_BACKEND_URL.onrender.com` |
-| 📄 Swagger Docs | `https://YOUR_BACKEND_URL.onrender.com/api-docs` |
+| 🌐 Frontend | `https://sales-insight-automator-jet.vercel.app` |
+| 📡 Backend API | `https://sales-insight-automator-nr7x.onrender.com` |
+| 📄 Swagger Docs | `https://sales-insight-automator-nr7x.onrender.com/api-docs` |
 
 ---
 
@@ -69,7 +69,7 @@ RabbitAI is a "Quick-Response Tool" built for the Rabbitt AI engineering sprint.
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/YOUR_USERNAME/RabbitAI.git
+git clone https://github.com/AdityaVC2310/sales-insight-automator.git
 cd RabbitAI
 
 # 2. Create your backend environment file
@@ -233,8 +233,8 @@ RabbitAI/
 1. Push this repo to GitHub
 2. Go to [vercel.com](https://vercel.com) → **New Project** → import the repo
 3. Set **Root Directory** to `frontend`
-4. Add environment variable: `VITE_API_URL=https://YOUR_BACKEND_URL.onrender.com`
-5. Deploy
+4. Add environment variable: `VITE_API_URL=https://sales-insight-automator-nr7x.onrender.com`
+5. Deploy → https://sales-insight-automator-jet.vercel.app
 
 ### Backend → Render
 1. Go to [render.com](https://render.com) → **New Web Service** → connect the repo
@@ -242,7 +242,7 @@ RabbitAI/
 3. **Build command:** `npm install`
 4. **Start command:** `npm start`
 5. Add all environment variables from `.env.example` in the Render dashboard
-6. Deploy — your API URL + `/api-docs` is your Swagger endpoint
+6. Deploy → https://sales-insight-automator-nr7x.onrender.com/api-docs
 
 ---
 

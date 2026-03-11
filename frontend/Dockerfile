@@ -1,7 +1,7 @@
 # ── Build Stage ───────────────────────────────────────────────────
 FROM node:20-alpine AS builder
 WORKDIR /app
-COPY package.json bun.lockb* ./
+COPY package.json bun.lock* ./
 RUN npm install --production=false
 COPY . .
 RUN npm run build

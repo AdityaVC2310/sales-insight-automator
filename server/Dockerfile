@@ -2,7 +2,7 @@ FROM node:20-alpine
 WORKDIR /app
 
 # Install deps first (layer caching)
-COPY package.json bun.lockb* ./
+COPY package.json bun.lock* ./
 RUN npm install --production
 
 # Copy source
